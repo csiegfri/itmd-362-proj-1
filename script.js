@@ -6,3 +6,5 @@ Thanks=function(){
 	
 	document.getElementById("demo").innerHTML = result;
 }
+
+document.getElementById("submit").addEventListener("click", Thanks());
