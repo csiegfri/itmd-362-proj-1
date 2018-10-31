@@ -54,10 +54,11 @@ div{
 }
 
 html{
-	line-height: 1.2em;
+	line-height: 2.02em;
 	font-family: 'Chakra Petch', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	color: white;
+	/*Added Major 2nd scale for font-size to Line Height*/
 }	
 
 #call{
@@ -102,7 +103,7 @@ h1{
 input{
 	position: relative;
 	bottom: 0.5em;
-	line-height: 1.2;
+	line-height: 2.2;
 }
 
 input:invalid + span:after {
