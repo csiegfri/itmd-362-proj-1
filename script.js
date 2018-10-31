@@ -1,6 +1,7 @@
-function Thanks(){
-  var name = document.getElementById("name").value;
-  var email = document.getElementById("email").value;
+Thanks = function(){
+  alert("Hi");
+  let name = document.getElementById("handle").value;
+  let email = document.getElementById("email").value;
   result = "Congratulations, " + name + ", you're in. Expect an email at " + email + " in the near future.";
   alert(result);  
 };
