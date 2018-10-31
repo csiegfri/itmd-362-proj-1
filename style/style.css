@@ -57,6 +57,7 @@ html{
 	line-height: 1.2em;
 	font-family: 'Chakra Petch', sans-serif;
 	font-size: 1.5em;
+	font-color: white;
 }	
 
 @media only screen and (min-width : 320px) and (max-width : 480px){
@@ -86,6 +87,7 @@ html{
 
 body{
 	text-align: center;
+	background-color: #36454F;
 }
 h1{
 	font-size: 2em;
