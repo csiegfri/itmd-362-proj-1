@@ -20,7 +20,7 @@
         </ul>
         <p>For those that wish to join in for future efforts, here's how you can join:</p>
       </div>
-      <form>
+      <form onsubmit="return Thanks()">
         <div>
           <label>Enter your handle (Letters only):</label><input type="text" pattern="[A-Za-z\s]+" minlength="3" maxlength="16" placeholder="username" required> <span></span>
         </div>
@@ -28,7 +28,7 @@
           <label>Enter your email:</label><input type="email" placeholder="you@dot.com" required> <span></span>
         </div>
         <div> 
-          <input type="button" value="REGISTER">
+          <input type="submit" value="Register">
         </div>
       </form>
     </div>
